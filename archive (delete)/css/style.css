@@ -20,7 +20,7 @@ p {
 
 #logo {
 
-    padding: 25px;
+    padding: 0px;
     width: 75%;
     margin: auto;
 
@@ -29,9 +29,17 @@ p {
 #headspace {
 
     width: 100%;
-    min-height: 450px;
+    height: 100vh;
     display: block;
-    background-image: url('../images/background.png');
+    /*background-image: url('../images/background.png');*/
+
+}
+
+.hero {
+
+    width: 100%;
+    height: 100%;
+    background-image: url('../images/gradient\ background\ geometric.png');
 
 }
 
@@ -157,7 +165,7 @@ bottom: 0px;
 
     #logo {
 
-        width: 15vw;
+        width: 10vw;
         margin: 0;
 
     }
@@ -166,16 +174,6 @@ bottom: 0px;
 
         bottom: -100px;
         
-    }
-
-    .navigation {
-
-        display: block;
-        position: absolute;
-        top: 5%;
-        right: 0;
-        padding: 50px;
-
     }
 
     .nav-links {
@@ -202,7 +200,8 @@ bottom: 0px;
         display: flex;
         list-style: none;
         position: absolute;
-        top: 15%;
+        top: 10%;
+        left: 10%;
 
     }
 
