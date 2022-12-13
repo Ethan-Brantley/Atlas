@@ -4,9 +4,131 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Atlas Web Design | Home</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    
+    <header id="Home">
+        <!--Navigation-->
+        <nav>
+            <img src="https://via.placeholder.com/200x150" id="branding">
+            <ul>
+                <li><a href="#Home" onclick="window.location.href = '#Home';">Home</a></li>
+                <li><a href="#About" onclick="window.location.href = '#About';">About</a></li>
+                <li><a href="#Services" onclick="window.location.href = '#Services';">Services</a></li>
+                <li><a href="#Portfolio" onclick="window.location.href = '#Portfolio';">Portfolio</a></li>
+            </ul>
+        </nav>
+        <!--Hero-->
+    </header>
+
+    <content>
+        <section style="background-image:url('images/background_2.jpg')">
+            <h1 id="hero" class="left">
+                Important<br>
+                Hero<br>
+                Text<br>
+            </h1>
+        </section>
+        <!--Team Section-->
+        <section style="background-color: #1b1b1b;">
+            <div class="card">
+                <h2>The Team</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum inventore, similique error repellat perferendis quas quaerat delectus voluptate placeat animi rem quibusdam voluptatum qui. Assumenda explicabo aperiam nesciunt earum vitae? lor</p>
+            </div>
+            <div>
+                <div id="team">
+                    <div class="short-card" id="About">
+                        <div>
+                            <img src="https://via.placeholder.com/150" class="pfp">
+                        </div>
+                        <div  class="short-card-body">
+                            <h2>Benjamin Brantley</h2>
+                            <h3>Project Manager</h3>
+                            <p>
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi beatae pariatur odit rerum quisquam aliquid praesentium eius fuga enim at expedita qui, consequatur aut recusandae officiis iusto culpa, ea illo.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="short-card">
+                        <div>
+                            <img src="https://via.placeholder.com/150" class="pfp">
+                        </div>
+                        <div class="short-card-body">
+                            <h2>Ethan Brantley</h2>
+                            <h3>Lead Web Developer</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita ipsam ad sint optio itaque reiciendis minus numquam officia consequatur, neque a saepe sunt, porro esse modi non natus blanditiis adipisci!
+                            </p>                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="bg-light" style="display: block">
+                <h1 class="centered" id="Services">Services</h1>
+                <div class="service-list">
+                    <div class="card-sm">
+                        <h2 class="u-green">Basic</h2>
+                        <h3>$50/Month</h3>
+                        <ul style="padding: 50px;">
+                            <li>Plan Specific Item</li>
+                            <li>Plan Specific Item</li>
+                            <li>Plan Specific Item</li>
+                            <li>Plan Specific Item</li>
+                            <li>Plan Specific Item</li>
+                            <li>Plan Specific Item</li>
+                        </ul>
+                    </div>
+                    <div class="card-sm em">
+                        <h2 class="u-orange">Standard</h2>
+                        <h3>$150/Month</h3>
+                        <ul style="padding: 50px;">
+                            <li>Plan Specific Item</li>
+                            <li>Plan Specific Item</li>
+                            <li>Plan Specific Item</li>
+                            <li>Plan Specific Item</li>
+                            <li>Plan Specific Item</li>
+                            <li>Plan Specific Item</li>
+                        </ul>
+                    </div>
+                    <div class="card-sm">
+                        <h2 class="u-purple">Professional</h2>
+                        <h3>$300/Month</h3>
+                        <ul style="padding: 50px;">
+                            <li>Plan Specific Item</li>
+                            <li>Plan Specific Item</li>
+                            <li>Plan Specific Item</li>
+                            <li>Plan Specific Item</li>
+                            <li>Plan Specific Item</li>
+                            <li>Plan Specific Item</li>
+                        </ul>
+                    </div>
+                </div>
+        </section>
+        <section style="background-color: #1b1b1b;" id="Portfolio">
+            
+        </section>
+        <section style="background-image:url(images/background_3.jpg)">
+
+        </section>
+    </content>
+
+    <footer>
+        <div class="footer-section">
+            <h2>
+                Let's Connect
+            </h2>
+            <a><i class="fa fa-phone"></i></a>
+            <a><i class="fa fa-instagram"></i></a>
+            <a><i class="fa fa-envelope"></i></a>
+        </div>
+        <div class="centered">
+            Copyright &copy; 2023 Atlas Web Design
+        </div>
+    </footer>
 </body>
 </html>
