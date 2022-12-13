@@ -320,8 +320,14 @@ footer {
 
     .card-sm:hover {
 
-        width: 50%;
-        height: 700px;
+        width: 30%;
+        transition: 0.5s;
+
+    }
+
+    .card-sm.em:hover {
+
+        width: 45%;
         transition: 0.5s;
 
     }
