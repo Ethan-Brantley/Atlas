@@ -31,7 +31,41 @@ section {
     overflow: hidden;
     background-size: cover;
     background-attachment: fixed;
-    background-attachment: fixed;
+
+}
+
+.transition {
+
+    margin-top: -300px;
+    margin-bottom: -1px;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size:cover;
+
+}
+
+.bg-down-arrow {
+
+    background-image: url("../images/bg_down_arrow.svg");
+
+}
+
+.bg-slant-up {
+
+    background-image: url("../images/bg-slant-up.svg");
+
+}
+
+.bg-slant-down {
+
+    background-image: url("../images/bg-slant-down.svg");
+
+}
+
+.bg-slant-down-white {
+
+    background-image: url("../images/bg-slant-down-white.svg");
 
 }
 
@@ -257,7 +291,7 @@ footer {
     section {
 
         display: flex;
-        min-height: 100vh;
+        min-height: 120vh;
     
     }
 
