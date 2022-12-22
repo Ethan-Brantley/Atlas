@@ -24,6 +24,35 @@ body {
     
 }
 
+.outer-box {
+
+    border: 2px black solid;
+    transform: translate();
+    position: relative;
+    height: 50vh;
+    width: 75vw;
+    margin: auto;
+    margin-top: 50px;
+
+}
+
+.content-box {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border: white 5px solid;
+    left: -10px;
+    top: -10px;
+
+}
+
+
+
 .swiper {
 
     padding-top: 150px;
@@ -37,6 +66,13 @@ body {
 
     text-align: center;
     padding: 20px;
+
+}
+
+.swiper-slide a {
+
+    color: rgb(229, 232, 221);
+    text-decoration: none;
 
 }
 
@@ -81,9 +117,9 @@ section {
 
 .transition {
 
-    margin-top: -300px;
+    margin-top: -400px;
     margin-bottom: -1px;
-    height: 300px;
+    height: 400px;
     background-repeat: no-repeat;
     background-position: bottom;
     background-size:cover;
@@ -148,6 +184,13 @@ h3 {
 p {
 
 padding: 15px 0px;
+
+}
+
+.contentP {
+
+    padding: 25px;
+    text-indent: 2em;
 
 }
 
@@ -310,7 +353,6 @@ nav li a {
 
     text-decoration: none;
     color: #fff;
-    border-bottom: #a7713a solid 3px;
 
 }
 
@@ -417,6 +459,20 @@ footer {
 
     }
 
+    .card-body {
+
+        width: 80%;
+        padding: 50px;
+        margin-top: 100px;
+
+    }
+
+    .card-body p {
+
+        text-align: left;
+
+    }
+
     .pfp {
     
         margin: 0;
@@ -513,7 +569,7 @@ footer {
 
         display: block;
         padding: 50px;
-        left: 15%;
+        right: 0%;
         top: 15px;
         position: absolute;
 
@@ -562,6 +618,23 @@ footer {
         width: 50px;
         display: block;
     
+    }
+
+    .outer-box {
+
+        margin-left: 50px;
+
+    }
+
+    .content-box {
+        top: -25px;
+        left: -25px;
+    }
+
+    .content-box h2, p {
+
+        text-align: center;
+
     }
 
 }
