@@ -7,7 +7,7 @@
    viewBox="0 0 210 297"
    version="1.1"
    id="svg5"
-   sodipodi:docname="background-test.svg"
+   sodipodi:docname="bg_down_arrow.svg"
    inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -24,9 +24,9 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      showgrid="true"
-     inkscape:zoom="0.78127806"
-     inkscape:cx="319.34853"
-     inkscape:cy="766.69246"
+     inkscape:zoom="2"
+     inkscape:cx="433.25"
+     inkscape:cy="1118.5"
      inkscape:window-width="1920"
      inkscape:window-height="1057"
      inkscape:window-x="1912"
@@ -76,4 +76,8 @@
      style="fill:#1b1b1b;fill-opacity:1;stroke:none;stroke-width:0.264999;stroke-linecap:round;stroke-linejoin:bevel;paint-order:markers fill stroke"
      d="m 0,301.625 v 15.875 0 h 216.95833 v -15.875 z"
      id="path15360" />
+  <path
+     style="fill:#336699;stroke-width:0.264999;stroke-linecap:round;stroke-linejoin:bevel;paint-order:markers fill stroke"
+     d="m 0,272.52083 105.83333,26.45833"
+     id="path1540" />
 </svg>

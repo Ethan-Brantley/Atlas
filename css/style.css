@@ -37,14 +37,10 @@ body {
 
     text-align: center;
     padding: 20px;
-    margin-top: 0px;
-    transition: margin-top 0.3s;
+
 }
 
 .swiper-slide-active {
-
-    margin-top: 100px;
-    transition: margin-top 0.3s;
 
 }
 
@@ -97,6 +93,12 @@ section {
 .bg-down-arrow {
 
     background-image: url("../images/bg_down_arrow.svg");
+
+}
+
+.bg-up-swoop-blue {
+
+    background-image: url("../images/bg-up-swoop-blue.svg");
 
 }
 
@@ -177,7 +179,7 @@ padding: 15px 0px;
 
 .u-orange {
 
-    border-bottom: orange 2px solid;
+    border-bottom: #FF9966 2px solid;
 
 }
 
@@ -307,7 +309,8 @@ nav ul {
 nav li a {
 
     text-decoration: none;
-    color: rgb(229, 232, 221);
+    color: #fff;
+    border-bottom: #a7713a solid 3px;
 
 }
 
@@ -350,23 +353,15 @@ footer {
 
 }
 
-.fa-linkedin {
+.fa-medium, .fa-linkedin, .fa-mastodon, .fa-instagram, .fa-envelope, .fa-phone {
 
-    color: #0A66C2;
-
-}
-
-.fa-medium {
-
-    color: white;
+    color: #a7713a;
 
 }
 
-.fa-mastodon {
+.fa-medium:hover, .fa-linkedin:hover, .fa-mastodon:hover, .fa-instagram:hover,.fa-envelope:hover, .fa-phone:hover {
 
-    background: -webkit-linear-gradient(#6364FF, #563ACC);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: #FF9966;
 
 }
 

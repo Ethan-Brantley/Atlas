@@ -2,8 +2,6 @@ const swiper = new Swiper('.swiper', {
     // Optional parameters
     direction: 'horizontal',
     loop: true,
-    slidesPerView: 3,
-    spaceBetween: 30,
     centeredSlides: true,
   
     // Navigation arrows
@@ -27,12 +25,12 @@ const swiper = new Swiper('.swiper', {
           spaceBetween: 50,
         },
         "@1.00": {
-          slidesPerView: 3,
-          spaceBetween: 100,
+          slidesPerView: 2.5,
+          spaceBetween: 50,
         },
         "@1.50": {
           slidesPerView: 2.5,
-          spaceBetween: 100,
+          spaceBetween: 50,
         },
       },
   });
