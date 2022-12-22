@@ -6,9 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Atlas Web Design | Home</title>
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+    
 </head>
 <body>
     <header id="Home">
@@ -34,7 +36,7 @@
         </section>
         <div class="transition bg-down-arrow"></div>
         <!--Team Section-->
-        <section style="background-color: #1b1b1b;">
+        <section style="background-color: #1b1b1b;padding-bottom:150px;">
             <div class="card">
                 <h2>The Team</h2>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum inventore, similique error repellat perferendis quas quaerat delectus voluptate placeat animi rem quibusdam voluptatum qui. Assumenda explicabo aperiam nesciunt earum vitae? lor</p>
@@ -51,18 +53,29 @@
                             <p>
                                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi beatae pariatur odit rerum quisquam aliquid praesentium eius fuga enim at expedita qui, consequatur aut recusandae officiis iusto culpa, ea illo.
                             </p>
+                            <div>
+                                <a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+                                <a href="https://medium.com/"><i class="fa-brands fa-medium"></i></a>
+                                <a href="https://mastodon.social/explore"><i class="fa-brands fa-mastodon"></i></a>
+                                <a href="https://instagram.com"><i class="fa-brands fa-instagram"></i></a>
+                            </div>
                         </div>
                     </div>
                     <div class="short-card">
                         <div>
-                            <img src="https://via.placeholder.com/150" class="pfp">
+                            <img src="https://via.placeholder.com/150" class="pfp">   
                         </div>
                         <div class="short-card-body">
-                            <h2 class="u-orange">Ethan Brantley</h2>
+                            <h2 class="u-orange">Ethan Brantley</h2>  
                             <h3>Lead Web Developer</h3>
                             <p>
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita ipsam ad sint optio itaque reiciendis minus numquam officia consequatur, neque a saepe sunt, porro esse modi non natus blanditiis adipisci!
-                            </p>                            
+                            </p>
+                            <div>
+                                <a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+                                <a href="https://medium.com/"><i class="fa-brands fa-medium"></i></a>
+                                <a href="https://mastodon.social/explore"><i class="fa-brands fa-mastodon"></i></a>
+                            </div>                     
                         </div>
                     </div>
                 </div>
@@ -112,7 +125,34 @@
         </section>
         <div class="transition bg-slant-up"></div>
         <section style="background-color: #1b1b1b;" id="Portfolio">
-            
+            <!-- Slider main container -->
+            <div class="swiper">
+            <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+                        <img src="https://via.placeholder.com/150">
+                        <img src="images/noun-art-deco-divider-3292309.svg" style="height:150px;">
+                        <h2>Example Site</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error voluptatum et facilis animi.</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://via.placeholder.com/150">
+                        <h2>Example Site</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error voluptatum et facilis animi.</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://via.placeholder.com/150">
+                        <h2>Example Site</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error voluptatum et facilis animi.</p>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+  
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"><i class="fa fa-chevron-left"></i></div>
+                <div class="swiper-button-next"><i class="fa fa-chevron-right"></i></div>
+            </div>
         </section>
         <section style="background-image:url(images/background_3.jpg)">
 
@@ -125,12 +165,15 @@
                 Let's Connect
             </h2>
             <a><i class="fa fa-phone"></i></a>
-            <a><i class="fa fa-instagram"></i></a>
+            <a><i class="fa-brands fa-instagram"></i></a>
             <a><i class="fa fa-envelope"></i></a>
         </div>
         <div class="centered">
             Copyright &copy; 2023 Atlas Web Design
         </div>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="js/init_slide.js"></script>
 </body>
 </html>
