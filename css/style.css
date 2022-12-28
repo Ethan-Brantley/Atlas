@@ -14,19 +14,19 @@ html {
 font-family: "Libre Baskerville", serif;
 color: rgb(229, 232, 221);
 background-color: #1b1b1b;
+background-attachment: fixed;
+background-size: cover;
 scroll-behavior: smooth;
 
 }
 
 body {
-
-
     
 }
 
 .outer-box {
 
-    border: 2px black solid;
+    border: 2px #a7713a solid;
     transform: translate();
     position: relative;
     height: 50vh;
@@ -45,7 +45,7 @@ body {
     width: 100%;
     height: 100%;
     position: absolute;
-    border: white 5px solid;
+    border: #bbbbbb 5px solid;
     left: -10px;
     top: -10px;
 
@@ -59,6 +59,7 @@ body {
     width: 100vw;
     min-height: 60vh;
     margin: auto;
+    z-index: 0;
 
 }
 
@@ -132,9 +133,9 @@ section {
 
 }
 
-.bg-up-swoop-blue {
+.bg-swoop-up {
 
-    background-image: url("../images/bg-up-swoop-blue.svg");
+    clip-path: ellipse(100% 100% at 51% 0%);
 
 }
 
@@ -310,7 +311,7 @@ padding: 15px 0px;
 .bg-light {
 
     color: black;
-    background-color: #FFF;
+    background-color: white;
 
 }
 
@@ -343,6 +344,68 @@ padding: 15px 0px;
 
 }
 
+#mobile-nav {
+
+    position: absolute;
+    top: 0%;
+    z-index: 1;
+    width: 100%;
+
+}
+
+.overlay-content {
+
+    width: 0%;
+    position: fixed;
+    overflow: hidden;
+    height: 100vh;
+    background-color:#1b1b1b;
+    transition: all 0.3s;
+    padding-top: 100px;
+
+}
+
+.overlay-content a {
+
+    color: rgb(229, 232, 221);
+    display: block;
+    text-decoration: none;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding: 50px;
+
+}
+
+#mobile-nav img {
+
+    position: fixed;
+    right: 0%;
+    padding: 15px;
+    width: 65px;
+    
+}
+
+nav {
+
+    display: block;
+    height: 200px;
+    width: 100%;
+    background-image: linear-gradient(#1b1b1b, #1b1b1bf2, #1b1b1bb0, #1b1b1b00);
+
+}
+
+.closeBtn {
+
+    position: absolute;
+    right: 0%;
+    top: 0%;
+    line-height: 0.5em;
+    font-size: 50px;
+    padding: 20px;
+
+}
+
 nav ul {
 
     display: none;
@@ -353,6 +416,17 @@ nav li a {
 
     text-decoration: none;
     color: #fff;
+
+}
+
+.fa.scroll-cue {
+
+    font-size: 35px;
+    position: absolute;
+    left: 50%;
+    bottom: 5%;
+    transform: translate(-50%, 0%);
+    color: white;
 
 }
 
@@ -430,7 +504,7 @@ footer {
     section {
 
         display: flex;
-        min-height: 120vh;
+        min-height: 100vh;
     
     }
 
@@ -561,8 +635,6 @@ footer {
 
     nav {
 
-        height: 0px;
-
     }
 
     nav ul {
@@ -579,6 +651,12 @@ footer {
 
         display: inline-block;
         padding: 0px 50px;
+
+    }
+
+    footer {
+
+        background-color: #1b1b1b;
 
     }
 
@@ -637,4 +715,9 @@ footer {
 
     }
 
+    #mobile-nav {
+
+        display: none;
+
+    }
 }

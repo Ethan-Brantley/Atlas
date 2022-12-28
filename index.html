@@ -15,28 +15,42 @@
 <body>
     <header id="Home">
         <!--Navigation-->
-        <nav>
-            <img src="images/Atlas.png" id="branding">
-            <ul>
-                <li><a href="#Home" onclick="window.location.href = '#Home';">Home</a></li>
-                <li><a href="#About" onclick="window.location.href = '#About';">About</a></li>
-                <li><a href="#Services" onclick="window.location.href = '#Services';">Services</a></li>
-                <li><a href="#Portfolio" onclick="window.location.href = '#Portfolio';">Portfolio</a></li>
-            </ul>
-        </nav>
+        <div id="mobile-nav">
+            <span onclick="openNav()"><img src="images/icons/mobile-nav-open.png"></span>
+            <div class="overlay-content" id="nav">
+                <span href="javascript:void(0)" class="closeBtn" onclick="closeNav()">×</span>
+                <a href="#Home" onclick="closeNav()">Home</a>
+                <a href="#About" onclick="closeNav()">About</a>
+                <a href="#Services" onclick="closeNav()">Services</a>
+                <a href="#Portfolio" onclick="closeNav()">Portfolio</a>
+            </div>
+        </div>
+
         <!--Hero-->
     </header>
     <content>
-        <section style="background-image:url('images/background_2.jpg')">
+        <section style="background-image:url('images/background_2.jpg');" class="bg-swoop-up">
+            <nav>
+                <img src="images/Atlas.png" id="branding">
+                <ul>
+                    <li><a href="#Home" onclick="window.location.href = '#Home';">Home</a></li>
+                    <li><a href="#About" onclick="window.location.href = '#About';">About</a></li>
+                    <li><a href="#Services" onclick="window.location.href = '#Services';">Services</a></li>
+                    <li><a href="#Portfolio" onclick="window.location.href = '#Portfolio';">Portfolio</a></li>
+                </ul>
+            </nav>
+
             <h1 id="hero" class="left">
                 Important<br>
                 Hero<br>
                 Text<br>
             </h1>
+
+            <a href="#About"><i class="fa fa-chevron-down scroll-cue"></i></a>
         </section>
-        <div class="transition bg-up-swoop-blue"></div>
-        <section style="background-color: #336699;padding-bottom:150px;">
+        <section style="padding-bottom:150px;">
             <div id="About">
+                <!--<div style="display:block; background-color:rgba(25, 25, 110, 0.677);margin-top:150px;margin-bottom:250px;">-->
                 <div class="short-card">
                     <div class="outer-box">
                         <div class="content-box">
@@ -49,6 +63,7 @@
                         <p class="contentP">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam itaque aut laborum sint error omnis ex nisi, ducimus, quos exercitationem consequuntur mollitia laudantium libero cum vel eveniet ipsam in sit! Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque illum animi rerum voluptas facilis numquam aliquam eveniet ab, reiciendis earum esse, iusto, expedita provident cupiditate officiis. Facilis error ullam nam!</p>
                     </div>
                 </div>
+                <!--</div>-->
             </div>
         </section>
         <div class="transition bg-down-arrow"></div>
@@ -99,7 +114,7 @@
                 </div>
             </div>
         </section>
-        <div class="transition bg-slant-down-white"></div>
+        <div class="transition"></div>
         <section class="bg-light" style="display: block">
                 <h1 class="centered" id="Services">Services</h1>
                 <div class="service-list">
@@ -200,5 +215,6 @@
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script src="js/init_slide.js"></script>
+    <script src="js/mobile_nav.js"></script>
 </body>
 </html>
