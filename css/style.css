@@ -9,6 +9,10 @@
     src: url("../fonts/Libre_Baskerville/LibreBaskerville-Regular.ttf");
 }
 
+:root {
+    --devHeight: 86vh;
+  }
+
 html {
 
 font-family: "Libre Baskerville", serif;
@@ -109,8 +113,7 @@ body {
 
 section {
 
-    height: 100vh;
-    max-height: 100%;
+    height: calc(var(--devHeight)*1.01);
     width: 100%;
     overflow: hidden;
     background-size: cover;
