@@ -17,16 +17,11 @@ background: linear-gradient(#1b1b1b, #525252);
 background-attachment: fixed;
 background-size: cover;
 scroll-behavior: smooth;
-overscroll-behavior: none;
-height: 100%;
-overflow: hidden;
 
 }
 
 body {
 
-    height: 100%;
-    overflow: auto;
     
 }
 
@@ -114,7 +109,8 @@ body {
 
 section {
 
-    min-height: 100vh;
+    height: 100vh; /* Fallback for browsers that do not support Custom Properties */
+    height: calc(var(--vh, 1vh) * 100);
     width: 100%;
     overflow: hidden;
     background-size: cover;
