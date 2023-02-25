@@ -137,6 +137,7 @@ section {
 .bg-swoop-up {
 
     clip-path: ellipse(100% 100% at 51% 0%);
+    height: 700px;
 
 }
 
@@ -738,5 +739,17 @@ footer {
         height: 80vh;
         padding-top: 10px;
 
+    }
+
+    #Services {
+
+        height: 100vh;
+
+    }
+
+    .bg-swoop-up {
+
+        height: 980px;
+    
     }
 }
