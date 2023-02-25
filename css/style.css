@@ -111,7 +111,7 @@ section {
 
     width: 100%;
     overflow: hidden;
-    background-size: cover;
+    background-size: 300%;
     background-attachment: fixed;
     background-position: center;
 
@@ -518,6 +518,7 @@ footer {
 
         display: flex;
         min-height: 100%;
+        background-size: 100%;
     
     }
 
