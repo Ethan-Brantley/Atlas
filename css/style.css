@@ -732,4 +732,11 @@ footer {
         display: none;
 
     }
+
+    #About {
+
+        height: 80vh;
+        padding-top: 10px;
+
+    }
 }
