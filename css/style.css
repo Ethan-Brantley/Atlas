@@ -17,13 +17,15 @@ background: linear-gradient(#1b1b1b, #525252);
 background-attachment: fixed;
 background-size: cover;
 scroll-behavior: smooth;
-height: 100vh;
+height: 100%;
+overflow-y: hidden;
 
 }
 
 body {
 
     height: 100%;
+    overflow-y: scroll;
     
 }
 
