@@ -18,14 +18,12 @@ background-attachment: fixed;
 background-size: cover;
 scroll-behavior: smooth;
 height: 100%;
-overflow-y: hidden;
 
 }
 
 body {
 
     height: 100%;
-    overflow-y: scroll;
     
 }
 
@@ -40,6 +38,22 @@ body {
     margin-top: 50px;
 
 }
+
+#hero-section::before {
+    content: '';
+    position: fixed;
+    z-index: -1;
+    display: block;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    background-image: url("../images/background_2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+ 
+ }
 
 .content-box {
 
@@ -57,7 +71,12 @@ body {
 
 }
 
+.bg-dark {
 
+    background: linear-gradient(#1b1b1b, #525252);
+    background-attachment: fixed;
+
+}
 
 .swiper {
 
@@ -115,10 +134,17 @@ section {
 
     width: 100%;
     overflow: hidden;
-    background-size: 300%;
-    background-attachment: fixed;
+
+}
+
+.bg {
+
+    position: fixed;
     background-repeat: no-repeat;
     background-position: center;
+    height: 100%;
+    width: 100vw;
+    z-index: -1;
 
 }
 
