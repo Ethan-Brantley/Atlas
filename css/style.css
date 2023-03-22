@@ -57,7 +57,7 @@ body {
 
  #hero-section {
 
-    min-height: 95vh;
+    min-height: 95%;
 
  }
 
@@ -397,7 +397,7 @@ padding: 15px 0px;
     width: 0%;
     position: fixed;
     overflow: hidden;
-    min-height: 100vh;
+    min-height: 100%;
     background-color:#1b1b1b;
     transition: all 0.3s;
     padding-top: 100px;
@@ -782,7 +782,7 @@ footer {
 
     #Services {
 
-        min-height: 100vh;
+        min-height: 100%;
 
     }
 
