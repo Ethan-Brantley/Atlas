@@ -410,7 +410,6 @@ padding: 15px 0px;
 #mobile-nav img {
 
     position: fixed;
-    z-index: 1;
     right: 0%;
     padding: 15px;
     width: 65px;
