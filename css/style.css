@@ -397,7 +397,7 @@ padding: 15px 0px;
     width: 0%;
     position: fixed;
     overflow: hidden;
-    height: 100vh;
+    min-height: 100vh;
     background-color:#1b1b1b;
     transition: all 0.3s;
     padding-top: 100px;
@@ -775,20 +775,21 @@ footer {
 
     #About {
 
-        height: 80vh;
+        min-height: 80vh;
         padding-top: 10px;
 
     }
 
     #Services {
 
-        height: 100vh;
+        min-height: 100vh;
 
     }
 
     .bg-swoop-up {
 
         height: 980px;
+        margin-bottom: 50px;
     
     }
 }
