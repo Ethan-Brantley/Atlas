@@ -45,6 +45,7 @@ body {
     background-attachment: fixed;
     background-image: url("../images/background_2.jpg");
     background-repeat: no-repeat;
+    background-size: 350%;
     background-position: 60% 50%;
 
 
@@ -782,6 +783,10 @@ footer {
         height: 980px;
         margin-bottom: 50px;
     
+    }
+
+    #hero-section {
+        background-size: 100%;
     }
 }
 
