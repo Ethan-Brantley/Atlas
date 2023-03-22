@@ -13,10 +13,6 @@ html {
 
 font-family: "Libre Baskerville", serif;
 color: rgb(229, 232, 221);
-background: linear-gradient(#1b1b1b, #525252);
-background-attachment: fixed;
-background-size: cover;
-scroll-behavior: smooth;
 height: 100%;
 
 }
@@ -25,6 +21,15 @@ body {
 
     height: 100%;
     
+}
+
+.bg-dark {
+
+    background: linear-gradient(#1b1b1b, #525252);
+    background-size: cover;
+    background-repeat: no-repeat;
+    scroll-behavior: smooth;
+
 }
 
 .outer-box {
@@ -58,12 +63,6 @@ body {
     border: #bbbbbb 5px solid;
     left: -10px;
     top: -10px;
-
-}
-
-.bg-dark {
-
-    background: linear-gradient(#1b1b1b, #525252);
 
 }
 
