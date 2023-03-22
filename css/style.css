@@ -379,7 +379,7 @@ padding: 15px 0px;
     position: absolute;
     left: 50%;
     transform: translate(-50%);
-    width:50%
+    width: 40%;
 
 }
 
@@ -430,7 +430,7 @@ nav {
     display: block;
     height: 200px;
     width: 100%;
-    background-image: linear-gradient(#1b1b1b, #1b1b1bf2, #1b1b1bb0, #1b1b1b00);
+    background-image: linear-gradient(#1b1b1b, #1b1b1b,  #1b1b1bf2, #1b1b1bf2, #1b1b1bb0, #1b1b1b00);
 
 }
 
