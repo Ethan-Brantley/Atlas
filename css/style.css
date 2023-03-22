@@ -41,7 +41,8 @@ body {
 
 #hero-section::before {
     content: '';
-    position: fixed;
+    /*position: fixed;*/
+    position: absolute;
     z-index: -1;
     display: block;
     top: 0px;
