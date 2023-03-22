@@ -39,7 +39,27 @@ body {
 
 }
 
+#hero-section::before {
+    content: '';
+    position: fixed;
+    z-index: -1;
+    display: block;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    background-image: url("../images/background_2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 60% 50%;
+ 
+ }
 
+ #hero-section {
+
+    min-height: 95%;
+
+ }
 
 .content-box {
 
@@ -366,7 +386,7 @@ padding: 15px 0px;
 
 #mobile-nav {
 
-    position: absolute;
+    position: relative;
     top: 0%;
     z-index: 1;
     width: 100%;
@@ -400,6 +420,7 @@ padding: 15px 0px;
 #mobile-nav img {
 
     position: fixed;
+    z-index: 1;
     right: 0%;
     padding: 15px;
     width: 65px;
@@ -773,4 +794,15 @@ footer {
         margin-bottom: 50px;
     
     }
+}
+
+@media only screen and (max-device-width: 480px) {
+
+    html {
+
+        height: calc(100% + 60px);
+        min-height: calc(100% + 60px);
+
+    }
+
 }
