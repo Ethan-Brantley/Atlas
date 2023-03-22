@@ -43,10 +43,7 @@ body {
 
     min-height: 95%;
     background-attachment: fixed;
-    background-image: url("../images/background_2.jpg");
-    background-repeat: no-repeat;
-    background-size: 350%;
-    background-position: 60% 50%;
+
 
 
  }
@@ -135,10 +132,12 @@ section {
 
 .bg {
 
-    position: fixed;
+    position: absolute;
+    background-attachment: fixed;
     background-repeat: no-repeat;
-    background-position: center;
-    height: 100%;
+    background-position: 55% 60%;
+    background-size: 300%;
+    height: 95%;
     width: 100vw;
     z-index: -1;
 
@@ -163,8 +162,9 @@ section {
 
 .bg-swoop-up {
 
-    clip-path: ellipse(100% 100% at 51% 0%);
-    height: 700px;
+    clip-path: ellipse(100% 100% at 50% 0%);
+    background-color: #1b1b1b;
+
 
 }
 
@@ -780,12 +780,9 @@ footer {
 
     .bg-swoop-up {
 
-        height: 980px;
-        margin-bottom: 50px;
-    
     }
 
-    #hero-section {
+    .bg {
         background-size: 100%;
     }
 }
