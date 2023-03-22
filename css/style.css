@@ -77,10 +77,17 @@ body {
 
 }
 
+.swiper-wrapper {
+
+    z-index: 0;
+
+}
+
 .swiper-slide {
 
     text-align: center;
     padding: 20px;
+    z-index: 0;
 
 }
 
@@ -388,6 +395,7 @@ padding: 15px 0px;
     background-color:#1b1b1b;
     transition: all 0.3s;
     padding-top: 100px;
+    z-index: 10;
 
 }
 
