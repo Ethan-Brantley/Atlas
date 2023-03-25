@@ -33,6 +33,12 @@ body {
 
 }
 
+.orb {
+
+    width: 100%;
+
+}
+
 .outer-box {
 
     border: 2px #a7713a solid;
@@ -788,6 +794,13 @@ footer {
     .bg {
         background-size: 100%;
     }
+
+    .orb {
+
+        max-width: 20%;
+
+    }
+
 }
 
 @media only screen and (max-device-width: 480px) {
