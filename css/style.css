@@ -15,6 +15,7 @@ font-family: "Libre Baskerville", serif;
 color: rgb(229, 232, 221);
 background-color:#1b1b1b;
 height: 100%;
+scroll-behavior: smooth;
 
 }
 
@@ -29,7 +30,6 @@ body {
     background: linear-gradient(#1b1b1b, #525252);
     background-size: cover;
     background-repeat: no-repeat;
-    scroll-behavior: smooth;
 
 }
 
