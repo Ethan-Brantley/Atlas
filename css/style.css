@@ -35,7 +35,26 @@ body {
 
 .orb {
 
-    width: 100%;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: #a7713a solid 2px;
+    margin: auto;
+    margin-bottom: 50px;
+    background-color: #1b1b1b;
+
+}
+
+.orb:hover {
+
+    height: 200px;
+    width: 200px;
+    box-shadow:
+        0 0 0 1px #FF9966;
+    -moz-box-shadow:
+        0 0 0 1px #FF9966;
+    -webkit-shadow:
+        0 0 0 1px #FF9966;
 
 }
 
